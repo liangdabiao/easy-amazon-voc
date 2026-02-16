@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "easy-amazon-voc - 评论智能分析",
+    "description": "基于AI的四维价值模型分析，深度挖掘用户评论中的痛点和需求"
+  },
+  "nav": {
+    "dashboard": "首页",
+    "aiProduct": "AI产品建议"
+  },
+  "loading": {
+    "initializing": "正在初始化...",
+    "stages": {
+      "dataStream": {
+        "title": "数据采集中",
+        "badge": "抓取内容",
+        "step": "Step 1/4"
+      },
+      "fluid": {
+        "title": "语义处理中",
+        "badge": "特征提取",
+        "step": "Step 2/4"
+      },
+      "crystal": {
+        "title": "智能聚类中",
+        "badge": "AI 运算",
+        "step": "Step 3/4"
+      },
+      "neural": {
+        "title": "深度分析中",
+        "badge": "LLM 推理",
+        "step": "Step 4/4"
+      }
+    },
+    "logs": {
+      "initializing": "正在准备分析环境...",
+      "validating": "正在验证数据源连接...",
+      "crawling": "正在抓取「{keyword}」相关内容...",
+      "crawlingDefault": "正在抓取相关内容...",
+      "semanticAnalysis": "正在分析文本语义特征...",
+      "processingVideos": "正在处理 {count} 条视频内容...",
+      "processingComments": "正在处理 {count} 条评论内容...",
+      "llmAnalysis": "AI 正在深度理解用户痛点...",
+      "analyzingCluster": "正在分析第 {current} 个痛点聚类...",
+      "processing": "正在处理中..."
+    }
+  },
+  "FileUpload": {
+    "dropFile": "释放文件以上传",
+    "dragDrop": "拖拽文件到此处，或点击选择",
+    "fileInfo": "最大 {maxSize}MB，仅支持 {accept} 文件",
+    "errors": {
+      "onlyCSV": "仅支持CSV文件",
+      "fileTooLarge": "文件过大，最大支持 {size}MB"
+    }
+  },
+  "CommentAnalysis": {
+    "title": "评论智能分析",
+    "subtitle": "上传CSV评论文件，AI自动生成多维度标签分析",
+    "mainTitle": "评论智能分析平台",
+    "mainSubtitle": "基于AI的四维价值模型分析，深度挖掘用户评论中的痛点和需求",
+    "uploadLabel": "上传评论文件",
+    "startButton": "开始分析",
+    "analyzing": "分析中...",
+    "tips": {
+      "title": "使用提示",
+      "tip1": "支持最大16MB的CSV文件",
+      "tip2": "最多处理300条评论",
+      "tip3": "AI将生成四维价值模型分析",
+      "tip4": "分析过程可能需要几分钟，请耐心等待"
+    },
+    "csvFormat": {
+      "title": "查看CSV格式要求",
+      "subtitle": "支持的列名",
+      "note": "系统将自动识别评论内容列"
+    },
+    "error": {
+      "title": "分析失败",
+      "unknown": "未知错误",
+      "noFile": "请先选择文件",
+      "retry": "重试"
+    },
+    "success": {
+      "title": "分析完成",
+      "message": "已完成 {filename} 的分析，处理了 {processed}/{total} 条评论",
+      "downloadCSV": "下载CSV",
+      "newAnalysis": "新建分析"
+    },
+    "stats": {
+      "total": "总评论数",
+      "processed": "已处理",
+      "skipped": "跳过",
+      "dimensions": "分析维度"
+    },
+    "footer": {
+      "slogan": "AI驱动的用户洞察平台"
+    }
+  },
+  "WordFrequency": {
+    "title": "词频统计",
+    "noData": "暂无词频数据",
+    "tags": "个标签",
+    "count": "出现次数",
+    "dimensions": {
+      "crowd": "人群与场景",
+      "functional": "功能价值",
+      "assurance": "保障价值",
+      "experience": "体验价值"
+    },
+    "sentiment": {
+      "positive": "正面",
+      "negative": "负面",
+      "neutral": "中性"
+    }
+  },
+  "Persona": {
+    "title": "用户画像",
+    "personas": "个画像",
+    "download": "下载",
+    "noData": "暂无用户画像数据",
+    "tip": "用户画像基于AI分析评论内容生成，可用于产品定位、营销策略和用户洞察。"
+  },
+  "ResultsTable": {
+    "noData": "暂无结果数据",
+    "allDimensions": "全部维度",
+    "totalReviews": "共 {count} 条评论",
+    "downloadCSV": "下载CSV",
+    "reviewContent": "评论内容",
+    "dimensions": {
+      "crowd": "人群与场景",
+      "functional": "功能价值",
+      "assurance": "保障价值",
+      "experience": "体验价值"
+    },
+    "pageInfo": "第 {current} / {total} 页",
+    "previous": "上一页",
+    "next": "下一页"
+  }
+}

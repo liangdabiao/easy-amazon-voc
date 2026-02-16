@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "easy-amazon-voc - AI Comment Analysis",
+    "description": "AI-powered 4-dimensional value model analysis for deep insights into user reviews"
+  },
+  "nav": {
+    "dashboard": "Home",
+    "aiProduct": "AI Product"
+  },
+  "loading": {
+    "initializing": "Initializing...",
+    "stages": {
+      "dataStream": {
+        "title": "Collecting Data",
+        "badge": "Crawling",
+        "step": "Step 1/4"
+      },
+      "fluid": {
+        "title": "Semantic Processing",
+        "badge": "Feature Extraction",
+        "step": "Step 2/4"
+      },
+      "crystal": {
+        "title": "Smart Clustering",
+        "badge": "AI Computing",
+        "step": "Step 3/4"
+      },
+      "neural": {
+        "title": "Deep Analysis",
+        "badge": "LLM Inference",
+        "step": "Step 4/4"
+      }
+    },
+    "logs": {
+      "initializing": "Preparing analysis environment...",
+      "validating": "Validating data source connection...",
+      "crawling": "Crawling content related to \"{keyword}\"...",
+      "crawlingDefault": "Crawling related content...",
+      "semanticAnalysis": "Analyzing text semantic features...",
+      "processingVideos": "Processing {count} video contents...",
+      "processingComments": "Processing {count} comment contents...",
+      "llmAnalysis": "AI is deeply understanding user pain points...",
+      "analyzingCluster": "Analyzing pain point cluster {current}...",
+      "processing": "Processing..."
+    }
+  },
+  "FileUpload": {
+    "dropFile": "Drop file to upload",
+    "dragDrop": "Drag & drop file here, or click to browse",
+    "fileInfo": "Max {maxSize}MB, {accept} only",
+    "errors": {
+      "onlyCSV": "Only CSV files are supported",
+      "fileTooLarge": "File too large, max {size}MB"
+    }
+  },
+  "CommentAnalysis": {
+    "title": "Comment AI Analysis",
+    "subtitle": "Upload CSV file for AI-powered multi-dimensional analysis",
+    "mainTitle": "AI Comment Analysis Platform",
+    "mainSubtitle": "Based on AI's 4-dimensional value model analysis, deeply mining pain points and needs in user comments",
+    "uploadLabel": "Upload Review File",
+    "startButton": "Start Analysis",
+    "analyzing": "Analyzing...",
+    "tips": {
+      "title": "Usage Tips",
+      "tip1": "Supports CSV files up to 16MB",
+      "tip2": "Maximum 300 reviews",
+      "tip3": "AI will generate 4-dimensional value model analysis",
+      "tip4": "Analysis may take several minutes, please be patient"
+    },
+    "csvFormat": {
+      "title": "View CSV format requirements",
+      "subtitle": "Supported column names",
+      "note": "System will automatically identify the review content column"
+    },
+    "error": {
+      "title": "Analysis Failed",
+      "unknown": "Unknown error",
+      "noFile": "Please select a file first",
+      "retry": "Retry"
+    },
+    "success": {
+      "title": "Analysis Completed",
+      "message": "Completed analysis of {filename}, processed {processed}/{total} reviews",
+      "downloadCSV": "Download CSV",
+      "newAnalysis": "New Analysis"
+    },
+    "stats": {
+      "total": "Total Reviews",
+      "processed": "Processed",
+      "skipped": "Skipped",
+      "dimensions": "Dimensions"
+    },
+    "footer": {
+      "slogan": "AI-powered User Insights Platform"
+    }
+  },
+  "WordFrequency": {
+    "title": "Word Frequency Statistics",
+    "noData": "No word frequency data available",
+    "tags": "tags",
+    "count": "Occurrences",
+    "dimensions": {
+      "crowd": "Crowd & Scenario",
+      "functional": "Functional Value",
+      "assurance": "Assurance Value",
+      "experience": "Experience Value"
+    },
+    "sentiment": {
+      "positive": "Positive",
+      "negative": "Negative",
+      "neutral": "Neutral"
+    }
+  },
+  "Persona": {
+    "title": "User Personas",
+    "personas": "personas",
+    "download": "Download",
+    "noData": "No persona data available",
+    "tip": "User personas are generated based on AI analysis of review content, useful for product positioning, marketing strategies, and user insights."
+  },
+  "ResultsTable": {
+    "noData": "No result data available",
+    "allDimensions": "All Dimensions",
+    "totalReviews": "Total {count} reviews",
+    "downloadCSV": "Download CSV",
+    "reviewContent": "Review Content",
+    "dimensions": {
+      "crowd": "Crowd & Scenario",
+      "functional": "Functional Value",
+      "assurance": "Assurance Value",
+      "experience": "Experience Value"
+    },
+    "pageInfo": "Page {current} / {total}",
+    "previous": "Previous",
+    "next": "Next"
+  }
+}
